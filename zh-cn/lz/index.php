@@ -31,7 +31,7 @@
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/fontawesome.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" rel="stylesheet">
     <style type="text/css">
-       .wrapper {position: relative;}
+       .wrapper1 {position: relative;}
        #input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
     </style>
     <!--   CSS End   -->
@@ -79,17 +79,9 @@
         <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
         <div class="mdui-list-item-content">蓝奏直链解析</div>
       </a>
-      <a href="/zh-cn/modpack" class="mdui-list-item mdui-ripple">
+      <a href="/zh-cn/imageapi" class="mdui-list-item mdui-ripple">
         <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
         <div class="mdui-list-item-content">图片API</div>
-      </a>
-      <a href="/zh-cn/hmcl" class="mdui-list-item mdui-ripple">
-        <li class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</li>
-        <div class="mdui-list-item-content">启动器下载</div>
-      </a>
-      <a href="/zh-cn/be" class="mdui-list-item mdui-ripple">
-        <li class="mdui-list-item-icon mdui-icon material-icons">android</li>
-        <div class="mdui-list-item-content">基岩版下载</div>
       </a>
       <li class="mdui-subheader">联系方式</li>
       <a href="https://jq.qq.com/?_wv=1027&k=hFdySg2N" class="mdui-list-item mdui-ripple">
@@ -131,7 +123,7 @@
         <ul>
             请求说明<br>
             请求参数<br>
-            反馈码<br>
+            错误代码<br>
         </ul> 
     </p>
   </blockquote>
@@ -146,7 +138,7 @@
         <span class="mdui-chip-title">请求说明</span>
     </div>
   </div>
-  <div class="mdui-row-center wrapper">
+  <div class="mdui-row-center wrapper1">
    <div class="mdui-col-sm-6" style="width: 100%;">
     <div class="mdui-m-t-2">
      <p><b>请求地址：</b>
