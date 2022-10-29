@@ -207,7 +207,7 @@
             手机版壁纸调用
         </td>
        </tr>
-       <tr>
+      <tr>
         <td>
         <code>pc</code>
         </td>
@@ -221,7 +221,35 @@
             电脑版壁纸调用
         </td>
        </tr>
-       <tr>
+      <tr>
+        <td>
+        <code>jk</code>
+        </td>
+        <td>
+            参数
+        </td>
+        <td>
+            是
+        </td>
+        <td>
+            JK少女壁纸调用
+        </td>
+       </tr>
+      <tr>
+        <td>
+        <code>website</code>
+        </td>
+        <td>
+            参数
+        </td>
+        <td>
+            是
+        </td>
+        <td>
+           网站专门优化图片调用
+        </td>
+       </tr>
+      <tr>
         <td>
         <code>json</code>
         </td>
@@ -235,7 +263,7 @@
             前面要带？
         </td>
        </tr>
-       <tr>
+      <tr>
         <td>
         <code>id</code>
         </td>
