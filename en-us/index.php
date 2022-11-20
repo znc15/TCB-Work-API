@@ -54,7 +54,7 @@
      <ul class="mdui-menu" id="example-2"> 
       <li class="mdui-menu-item"> <a href="/zh-cn" class="mdui-ripple">
         <i class="mdui-menu-item-icon mdui-icon material-icons">remove_red_eye</i>Chinese/中文</a></li> 
-      <li class="mdui-menu-item"> <a href="/en-US" class="mdui-ripple">
+      <li class="mdui-menu-item"> <a href="/en-us" class="mdui-ripple">
         <i class="mdui-menu-item-icon mdui-icon material-icons">remove_red_eye</i>English/英文</a></li> 
      </ul> 
     </div> 
