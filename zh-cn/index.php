@@ -42,7 +42,7 @@
     <button id="toggle" class="drawer mdui-btn mdui-btn-icon mdui-ripple">
       <i class="mdui-icon material-icons">menu</i>
     </button> 
-    <a href="javascript:;" class="mdui-typo-title">TCB Work</a> 
+    <a href="javascript:;" class="mdui-typo-title">TCB Work's API</a> 
     <div class="mdui-toolbar-spacer"></div> 
     <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
        <i class="mdui-icon material-icons">refresh</i>
@@ -163,7 +163,7 @@
                 <div class="utf-site-heading text-center">
                     <div class="col-md-8 col-md-offset-2">
                         <h2><span>特别 </span>鸣谢</h2>
-                        <p>这里特别感谢熊可狸提供的服务器以及网站模板</p>
+                        <p>这里特别感谢熊可狸提供的部分网站源码</p>
                     </div>
                 </div>
             </div>

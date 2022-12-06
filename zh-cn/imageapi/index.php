@@ -46,7 +46,7 @@
     <button id="toggle" class="drawer mdui-btn mdui-btn-icon mdui-ripple">
       <i class="mdui-icon material-icons">menu</i>
     </button> 
-    <a href="javascript:;" class="mdui-typo-title">TCB Work</a> 
+    <a href="javascript:;" class="mdui-typo-title">TCB Work's API</a> 
     <div class="mdui-toolbar-spacer"></div> 
     <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
        <i class="mdui-icon material-icons">refresh</i>
@@ -78,6 +78,10 @@
       <a href="/zh-cn/lz/" class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
         <div class="mdui-list-item-content">蓝奏直链解析</div>
+      </a>
+      <a href="/zh-cn/lz_url" class="mdui-list-item mdui-ripple">
+        <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
+        <div class="mdui-list-item-content">蓝奏云直接下载</div>
       </a>
       <a href="/zh-cn/imageapi" class="mdui-list-item mdui-ripple mdui-list-item-active">
         <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>

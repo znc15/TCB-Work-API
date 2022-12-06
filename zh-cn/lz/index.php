@@ -79,6 +79,10 @@
         <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
         <div class="mdui-list-item-content">蓝奏直链解析</div>
       </a>
+      <a href="/zh-cn/lz_url" class="mdui-list-item mdui-ripple">
+        <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
+        <div class="mdui-list-item-content">蓝奏云直接下载</div>
+      </a>
       <a href="/zh-cn/imageapi" class="mdui-list-item mdui-ripple">
         <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
         <div class="mdui-list-item-content">图片API</div>

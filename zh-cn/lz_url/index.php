@@ -46,7 +46,7 @@
     <button id="toggle" class="drawer mdui-btn mdui-btn-icon mdui-ripple">
       <i class="mdui-icon material-icons">menu</i>
     </button> 
-    <a href="javascript:;" class="mdui-typo-title">TCB Work</a> 
+    <a href="javascript:;" class="mdui-typo-title">TCB Work's API</a> 
     <div class="mdui-toolbar-spacer"></div> 
     <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
        <i class="mdui-icon material-icons">refresh</i>
@@ -310,7 +310,9 @@
   <div class="mdui-col-sm-6" style="width: 100%; margin: -190px; padding-right: 28px">
   </div>
   <a class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent" href="#" id="top" style="margin-bottom:60px; background-color:#448aff!important; color:#ffff">
-    <i class="mdui-icon material-icons">expand_less</i>
+  <div mdui-headroom="options">
+    <i class="mdui-icon material-icons">
+      expand_less</i></div>
   </a>
   <!-- JavaScript Start -->
   <script src="/assets/js/mdui.min.js"></script>
