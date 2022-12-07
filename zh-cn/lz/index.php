@@ -68,47 +68,9 @@
     <!-- APPBAR End -->
 
     <!-- List Start -->
-    <div class="mdui-drawer mdui-shadow-1 mc-drawer" id="drawer">
-      <div class="mdui-list">
-      <a href="/zh-cn" class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
-        <div class="mdui-list-item-content">首页</div>
-      </a>
-      <li class="mdui-subheader">API 链接/API Link</li>
-      <a href="/zh-cn/lz/" class="mdui-list-item mdui-ripple mdui-list-item-active">
-        <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
-        <div class="mdui-list-item-content">蓝奏直链解析</div>
-      </a>
-      <a href="/zh-cn/lz_url" class="mdui-list-item mdui-ripple">
-        <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
-        <div class="mdui-list-item-content">蓝奏云直接下载</div>
-      </a>
-      <a href="/zh-cn/imageapi" class="mdui-list-item mdui-ripple">
-        <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
-        <div class="mdui-list-item-content">图片API</div>
-      </a>
-      <li class="mdui-subheader">联系方式</li>
-      <a href="https://jq.qq.com/?_wv=1027&k=hFdySg2N" class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">email</i>
-        <div href="https://jq.qq.com/?_wv=1027&k=hFdySg2N" class="mdui-list-item-content">QQ群</div>
-      </a>
-      <li class="mdui-subheader">友情链接/Link</li>
-      <a href="https://www.miaofile.com" class="mdui-list-item mdui-ripple">
-        <i class="fa-brands fa-internet-explorer mdui-list-item-icon"></i>
-        <div class="mdui-list-item-content">储存猫</div>
-      </a>
-     </div>
-     <div class="copyright">
-      <p>
-        <br>© 2022
-        <br>TCB Work's
-        <br>Minecraft Server.
-        <br>Design with by TCB Work's HTML.
-        <br>Powered by
-        <a href="https://mdui.org" target="_blank">MDUI&Ali-a.cn</a>
-      </p>
-    </div>
-  </div>
+    <?php
+    include($_SERVER['DOCUMENT_ROOT']."/common/public/side_bar.php")
+    ?>
   <!-- List End -->
 
   <!-- Home#1 Start -->
