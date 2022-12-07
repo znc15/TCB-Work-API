@@ -1,71 +1,23 @@
 <!DOCTYPE html>
-<html lang="“zh-CN”">
+<html lang="zh-CN">
   <!--   Header Start   -->
-  <head>
-    <!--   Html info Start   -->
-    <meta name="author" content="" />
-    <meta charset="utf-8" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="TCB Work API" />
-    <meta name="keywords" content="TCB Work API" />
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TCB Work API</title>
-    <!--   Html info End   -->
-
-    <!--   CSS Start   -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/flaticon-set.css" rel="stylesheet" />
-    <link href="/assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="/assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="/assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="/assets/css/animate.css" rel="stylesheet" />
-    <link href="/assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="/assets/css/style.css" rel="stylesheet" />
-    <link href="/assets/css/responsive.css" rel="stylesheet" />
-    <link href="/assets/css/mdui.min.css" rel="stylesheet" />
-    <link href="/assets/css/mdui.css" rel="stylesheet" />
-    <link href="/assets/css/index.e8409b3c.css" rel="stylesheet" />
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.css" rel="stylesheet">
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/fontawesome.css" rel="stylesheet">
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" rel="stylesheet">
-    <!--   CSS End   -->
-  </head>
+    <?php
+      include($_SERVER['DOCUMENT_ROOT']."/common/public/header.php")
+    ?>
   <!--   Header End   -->
+
   <!-- Body Start -->
   <body class="mdui-drawer-body-left mdui-drawer-full-height" style="padding-top: 100px;">
-    <!-- APPBAR Start -->
-    <header>
-    <div class="mdui-appbar mc-appbar mdui-appbar-fixed mdui-shadow-0"> 
-    <div class="mdui-toolbar toolbar mdui-text-color-black mdui-shadow-3"> 
-    <button id="toggle" class="drawer mdui-btn mdui-btn-icon mdui-ripple">
-      <i class="mdui-icon material-icons">menu</i>
-    </button> 
-    <a href="javascript:;" class="mdui-typo-title">TCB Work's API</a> 
-    <div class="mdui-toolbar-spacer"></div> 
-    <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
-       <i class="mdui-icon material-icons">refresh</i>
-    </a> 
-    <div class="mdui-contain"> 
-     <button class="drawer mdui-btn mdui-btn-icon mdui-ripple" mdui-menu="{target: '#example-2'}">
-      <i class="mdui-icon material-icons">language</i>
-     </button> 
-     <ul class="mdui-menu" id="example-2"> 
-      <li class="mdui-menu-item"> <a href="/zh-cn" class="mdui-ripple">
-        <i class="mdui-menu-item-icon mdui-icon material-icons">remove_red_eye</i>Chinese/中文</a></li> 
-      <li class="mdui-menu-item"> <a href="/en-us" class="mdui-ripple">
-        <i class="mdui-menu-item-icon mdui-icon material-icons">remove_red_eye</i>English/英文</a></li> 
-     </ul> 
-    </div> 
-    </div> 
-    </div>
-    </header>
-    <!-- APPBAR End -->
-
-    <!-- List Start -->
+  
+  <!-- APPBAR Start -->
     <?php
-    include($_SERVER['DOCUMENT_ROOT']."/common/public/side_bar.php")
+      include($_SERVER['DOCUMENT_ROOT']."/common/public/appbear.php")
+    ?>
+  <!-- APPBAR End -->
+
+  <!-- List Start -->
+    <?php
+      include($_SERVER['DOCUMENT_ROOT']."/common/public/side_bar.php")
     ?>
   <!-- List End -->
 
@@ -186,31 +138,9 @@
   <!-- Body End -->
 
   <!-- Footer Start -->
-  <footer>
-    <!-- Live2d Start -->
-    <script>
-      L2Dwidget.init({
-          "model": {
-              jsonPath: "/assets/model/xiaomai/xiaomai.model.json",
-              "scale": 1
-          },
-          "display": {
-              "position": "right", //显示位置左、右
-              "width": 75,  // 宽度
-              "height": 150, //高度
-          },
-          "mobile": {
-              "show": false,	// 移动端显示
-              "scale": 0.2	//移动端显示缩小比例
-          },
-          "react": {
-              "opacityDefault": 0.9,	//默认透明度
-              "opacityOnHover": 0.2	//鼠标选中透明度
-          }
-      });
-    </script>
-    <!-- Live2d Start -->
-  </footer>
+  <?php
+      include($_SERVER['DOCUMENT_ROOT']."/common/public/footer.php")
+    ?>
   <!-- Footer end -->
 
 </html>

@@ -2,7 +2,7 @@
 
 
 $servername=' ';
-$username='dev_apimoe_lol';
+$username=' ';
 $password=' ';
-$dbname='dev_apimoe_lol';
+$dbname=' ';
 $conn = new mysqli($servername, $username, $password, $dbname);
