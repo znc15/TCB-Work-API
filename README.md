@@ -6,32 +6,26 @@
   <br>
 </h1>
 
-#### <center>来自小绵羊的学习项目<center>
-<center>
-<a href="https://github.com/znc15/TCB-Work-API">
-    <img src="https://img.shields.io/github/v/release/znc15/TCB-Work-API?include_prereleases&style=flat" />
-</a>
-<a href="https://github.com/znc15/TCB-Work-API/release">
-    <img src="https://img.shields.io/github/downloads/znc15/TCB-Work-API/total"/>
-</a>
-<a href="https://github.com/znc15/TCB-Work-API">
-    <img src="https://img.shields.io/github/license/znc15/TCB-Work-API"/>
-</a>
-</center>
-<br>
-<center>
-<a href="https://jq.qq.com/?_wv=1027&k=ySiFVduK">QQ群</a>
-•
-<a href="https://apimoe.lol">官方演示站点</a>
-•
-<a href="https://github.com/znc15/TCB-Work-API/releases">下载</a>
-</center>
-<br>
-<a href="https://github.com/znc15/TCB-Work-API">
-    <img src="https://cos.cdn.image.tcbmc.cc/uploads/2022/12/07/6390ad36b13bd.png"/>
-</a>
-<br>
-<br>
+<h4 align="center">来自小绵羊的学习项目</h4>
+<p align="center">
+  <a href="https://github.com/znc15/TCB-Work-API">
+      <img src="https://img.shields.io/github/v/release/znc15/TCB-Work-API?include_prereleases&style=flat">
+  </a>
+  <a href="https://github.com/cloudreve/Cloudreve/releases">
+    <img src="https://img.shields.io/github/downloads/znc15/TCB-Work-API/total" />
+  </a>
+  <a href="https://github.com/znc15/TCB-Work-API">
+     <img src="https://img.shields.io/github/license/znc15/TCB-Work-API"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://jq.qq.com/?_wv=1027&k=ySiFVduK">QQ群</a> •
+  <a href="https://apimoe.lol">官方演示站点</a> •
+  <a href="https://github.com/znc15/TCB-Work-API/releases">下载</a>
+</p>
+
+![Screenshot](https://cos.cdn.image.tcbmc.cc/uploads/2022/12/07/6390ad36b13bd.png)
 #### :sparkles: 特性
 
 * : PHP开发
