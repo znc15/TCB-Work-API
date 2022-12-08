@@ -6,8 +6,7 @@
   <br>
 </h1>
 
-***
-#### <center>来自小绵羊的学习项目</center>
+#### <center>来自小绵羊的学习项目<center>
 <center>
 <a href="https://github.com/znc15/TCB-Work-API">
     <img src="https://img.shields.io/github/v/release/znc15/TCB-Work-API?include_prereleases&style=flat" />
